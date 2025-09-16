@@ -21,7 +21,7 @@ pipeline {
 
         stage('SonarQube Analysis') {
             environment {
-                SONAR_HOST_URL = 'http://13.234.33.37:9000'
+                SONAR_HOST_URL = 'http://http://18.205.17.240:9000'
             }
             steps {
                 withSonarQubeEnv('SonarQubeServer') {
