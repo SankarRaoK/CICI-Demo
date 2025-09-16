@@ -11,5 +11,5 @@ This is a simple Java Maven app to demonstrate a CI pipeline in Jenkins with Son
 ## How to run locally ##
 ```bash
 mvn clean install
-java -cp target/jenkins-maven-sonar-demo-1.0-SNAPSHOT.jar com.example.App
+java -cp target/jenkins-maven-sonar-demo-1.0-SNAPSHOT.jar com.example.App.
 ```
